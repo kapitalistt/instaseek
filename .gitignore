@@ -1,0 +1,16 @@
+build/
+out/
+.vs/
+.vscode/
+vcpkg_installed/
+CMakeUserPresets.json
+*.user
+*.suo
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.zip
+Testing/
+desktop.ini
+Desktop.ini

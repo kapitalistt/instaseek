@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "instaseek",
+  "version": "1.0.0",
+  "description": "Instant file name and file content search for Windows, with a terminal UI",
+  "license": "MIT",
+  "supports": "windows & x64",
+  "dependencies": [
+    "ftxui",
+    "re2"
+  ],
+  "overrides": [
+    { "name": "ftxui", "version": "5.0.0" }
+  ],
+  "builtin-baseline": "0c2a9ace1964b818b15f7ae50ba1c42404918a7b"
+}
