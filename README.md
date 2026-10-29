@@ -1,7 +1,21 @@
-# InstaSeek
+<h1 align="center">⚡ InstaSeek</h1>
 
-**Instant file name search across a whole disk and fast text search inside multi‑gigabyte files, in one terminal app for Windows.**
+<p align="center">
+  <b>Instant file name search across a whole disk and fast text search inside multi‑gigabyte files, in one terminal app for Windows.</b><br>
+  Single portable .exe · no telemetry · read-only
+</p>
 
+<p align="center">
+  <a href="https://github.com/kapitalistt/instaseek/releases"><img src="https://img.shields.io/github/v/release/kapitalistt/instaseek?color=orange" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/C%2B%2B-20-00599C?logo=cplusplus&logoColor=white" alt="C++20">
+  <img src="https://img.shields.io/github/stars/kapitalistt/instaseek?style=flat&color=yellow" alt="Stars">
+</p>
+
+<p align="center">
+  <a href="https://github.com/kapitalistt/instaseek/releases/latest"><b>⬇ Download</b></a>
+</p>
 InstaSeek reads the NTFS Master File Table to index millions of files in seconds, keeps the index current through the USN journal, searches file contents with memory‑mapped I/O on every CPU core, and opens files of any size in a viewer that never loads them whole. It is a single portable `instaseek.exe` with a keyboard‑and‑mouse terminal UI on a pure black background and English/Russian interfaces.
 
 ![Files mode](docs/screenshots/files.png)
